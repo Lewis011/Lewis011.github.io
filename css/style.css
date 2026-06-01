@@ -1361,3 +1361,36 @@ pre .javascript .function {
   height: 100%;
   background: rgba(0,0,0,0.3);
 }
+/* 1. ���� banner ȫ���߶� */
+#banner {
+  height: 100vh; /* һ���߶� */
+  width: 100%;
+  background: url("images/banner.jpg") center center/cover no-repeat;
+  position: relative;
+}
+/* 2. �� banner �Ӱ�͸�����֣����ָ����� */
+#banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+/* 3. ������ҳ�汳���������ͼ����������Ҳ���� */
+body {
+  background: url("images/banner.jpg") center center fixed;
+  background-size: cover;
+}
+/* 4. ���¿�Ƭ�ĳɰ�͸�����ͱ����ں� */
+.main-inner {
+  background: rgba(255,255,255,0.85);
+  border-radius: 8px;
+}
+/* 5. ����ĳɻ��壬�������� */
+.blog-title .logo {
+  font-family: "Brush Script MT", cursive;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
