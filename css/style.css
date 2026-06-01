@@ -1355,10 +1355,11 @@ pre .javascript .function {
 .header {
   height: 350px !important;
   width: 100% !important;
+/* �����·���Ѿ��ĳ��˺���ͼƬ��ȫƥ��ĵ�ַ */
   background: url("/css/images/banner.jpg") center center/cover no-repeat !important;
   position: relative !important;
 }
-/* 2. ������ֻ����һ���͸�����֣�ȥ���ظ��� .header::after */
+/* ��͸������ */
 .header::after {
   content: "" !important;
   position: absolute !important;
@@ -1367,9 +1368,9 @@ pre .javascript .function {
   width: 100% !important;
   height: 100% !important;
   background: rgba(0,0,0,0.4) !important;
-  z-index: 1 !important; /* ���ֲ㼶���ڱ��� */
+  z-index: 1 !important;
 }
-/* 3. ����������㼶���������ⱻ���ֵ�ס */
+/* ������� */
 #header-title {
   position: absolute !important;
   top: 50% !important;
@@ -1380,15 +1381,15 @@ pre .javascript .function {
   -moz-transform: translateY(-50%) !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-  z-index: 10 !important; /* ����㼶��ߣ�ȷ���������Ϸ� */
+  z-index: 10 !important;
 }
-/* 4. ���⻨��+��Ӱ�����������ʽ�� */
+/* ���⻨��+��Ӱ */
 .blog-title .logo {
   font-family: "Brush Script MT", cursive !important;
   color: #03cdfa !important;
   text-shadow: 0 0 10px rgba(0,0,0,0.8) !important;
 }
-/* 5. ���¿�Ƭ��͸�������������ʽ�� */
+/* ���¿�Ƭ��͸�� */
 .main-inner {
   background: rgba(255,255,255,0.85) !important;
   border-radius: 8px !important;
